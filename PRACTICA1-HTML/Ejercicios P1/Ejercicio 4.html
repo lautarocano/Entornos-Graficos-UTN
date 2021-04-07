@@ -1,0 +1,63 @@
+<!-- Ejercicio 4 -->
+<html>
+<head>
+    <title>ejercicio 4</title>
+</head>
+<body>
+
+        <A HREF="http://www.frro.utn.edu.ar/"><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/UTN_logo.jpg" alt="Pagina_UTN" width="100" height="100" HREF> </img></A>
+    
+    <hr>
+    <br>
+        <h2>Año 2020</h2>
+    <br>
+    <table border="5">
+        <thead> 
+            <td colspan="2" align="center"> <strong> Examenes </strong></td>
+        </thead>
+        <tr>
+            <td rowspan="2">Fecha:
+                <script>
+                    var f = new Date();
+                    document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                </script>
+            </td> 
+            <td>Aprobados</td>
+        </tr>
+        <tr>
+            <td>24/03</td>
+        </tr>
+    </table>
+    <ol type="1">
+        <li><a href="#examen">Enunciado del examen</a></li>
+        <li><a href="http://www.wikipedia.com/" target="_blank">Resolución</a></li>
+    </ol> 
+    <br>
+    <p>Puede realizar las consultas completando el siguiente fomulario:</p>
+
+    <form action="mailto:x@x.com">
+        <label>E-mail:</label>
+        <br>
+        <input type="email" id="email" required>
+        <br>
+        <br>
+        <label>consulta:</label>
+        <br>
+        <textarea name="consulta" id="c1" cols="30" rows="5" required></textarea>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+    <br>
+    <br> 
+    <br>
+    <br> 
+    <div id="examen">
+        <h2>Enunciado del examen</h2>
+        <p>Ejercicio 1:...................<br>.....................................</p>
+        <p>Ejercicio 2:...................<br>.....................................</p>
+    </div>
+    <p>Para mas informacion dirigirse a <A href="mailto:contacto@xx.com">contacto@xx.com</A> </p>
+</body>
+</html>
