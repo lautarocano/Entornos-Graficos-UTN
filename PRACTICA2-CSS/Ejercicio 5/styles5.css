@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+h1 > strong{color:red;}
+
+div > p > a{color:black;}
+
+#ultimo > ul > li {color:yellow;}
+#ultimo > ul li a{color:blue;}  
+
+#importante {color: green;}
+h1 > #importante{color: red;}
+
+h1[title]{color: blue;}
+
+ol li a:link{color: blue;}
+ol li a:visited{
+            text-decoration:none!important;
+            color:purple;    
+            }
