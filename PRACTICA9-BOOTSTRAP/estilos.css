@@ -1,0 +1,13 @@
+.contenedor {
+        background-color: lightseagreen;
+}
+
+.marginApply {
+        margin-top: 15px;
+}
+
+.cardPersonalizada{
+        display: block;
+        width: 250px;
+        height: 300px;
+}
